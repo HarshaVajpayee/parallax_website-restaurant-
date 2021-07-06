@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  height: 100%;
+}
+
+.navbar {
+  background-color: black;
+}
+
+#parallax1 {
+  font-family: 'Reggae One', cursive;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(24.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  margin-top: 250px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.nav-item a {
+  margin-right: 40px;
+  color: indianred;
+  font-size: 18px;
+}
+
+.nav-item a:hover {
+  color: indianred;
+  background: #fff;
+  border: 1px solid indianred;
+  border-radius: 200px;
+}
+
+.menu {
+  font-family: 'Reggae One', cursive;
+}
+
+.menu-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(22.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-text {
+  align-items: center;
+  background: black;
+  columns: #000;
+  padding: 40px 0;
+}
+
+.menu-text-center {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu-text h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.menu-text p {
+  margin: 20px 0;
+  line-height: 2;
+  font-size: 30px;
+}
+
+.menu-text a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 20px;
+  border-radius: 200px;
+  font-weight: bold;
+  font-size: 25px;
+  background: rgb(10, 10, 10);
+  color: indianred;
+  cursor: pointer;
+  border: 2px solid indianred;
+}
+
+.menu-text a:hover {
+  color: indianred;
+  background: #fff;
+  border: none;
+}
+
+@media screen and (min-width:776px){
+  .menu {
+    display: flex;
+  }
+
+  .menu-text {
+    flex: 0 0 30%;
+  }
+
+  .menu-image {
+    flex: 0 0 70%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+  .menu {
+    background: black;
+  }
+}
+
+.img1 {
+  opacity: 0.4
+}
+
+.carousel-caption h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  color: black;
+}
+
+.carousel-caption a,
+#col2 a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 200px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  padding: 7px;
+  font-size: 15px;
+  background: rgb(10, 10, 10);
+  color: indianred;
+  cursor: pointer;
+  border: 2px solid indianred;
+}
+
+.carousel-caption a:hover,
+#col2 a:hover {
+  color: indianred;
+  background: #fff;
+  border: none;
+}
+
+#col1 {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(29.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#col2 h1 {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  color: indianred;
+  font-size: 40px;
+}
+
+#col2 p {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  color: indianred;
+  font-size: 15px;
+}
+
+#parallax2 {
+  font-family: 'Reggae One', cursive;
+  height: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(23.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.item1 {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(30.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.item1 h1 {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-size: 45px;
+}
+
+.item1 p {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.item1 a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 200px;
+  margin: 20px;
+  padding: 7px;
+  font-size: 20px;
+  background: rgb(10, 10, 10);
+  color: indianred;
+  cursor: pointer;
+  border: 2px solid indianred;
+}
+
+.item1 a:hover {
+  color: indianred;
+  background: #fff;
+  border: none;
+}
+
+#col3 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(21.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#col4 h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: indianred;
+  font-size: 50px;
+}
+
+#col4 p {
+  display: flex;
+  flex-wrap: wrap;
+  color: indianred;
+  font-size: 15px;
+}
+
+#parallax3 {
+  height: 140%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(13.jpg);
+  background-position: center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.address {
+  height: 20vh;
+  background-color: indianred;
+  text-align: center;
+}
